@@ -1,0 +1,32 @@
+{
+  "name": "newapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tunguyen-195/express_newapp.git"
+  },
+  "keywords": [
+    "new",
+    "learning",
+    "iamasweater"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tunguyen-195/express_newapp/issues"
+  },
+  "homepage": "https://github.com/tunguyen-195/express_newapp#readme",
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.5"
+  }
+}
